@@ -40,21 +40,24 @@
         const arr2d = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
         for (let arr of arr2d) {
             for (let n of arr) {
-                document.write(n + ', '+'<br>');
+                document.write(n + ', ');
             }
         }
+        document.write('<br>');
+
         // 3차원 배열
-        const arr3d = [[[1, 2, 3], [4, 5, 6], [7, 8, 9]], 
-                    [[10, 11, 12], [13, 14, 15], [16, 17, 18]],
-                    [[19, 20, 21], [22, 23, 24], [25, 26, 27]]];
+        const arr3d = [[[1, 2, 3], [4, 5, 6], [7, 8, 9]],
+        [[10, 11, 12], [13, 14, 15], [16, 17, 18]],
+        [[19, 20, 21], [22, 23, 24], [25, 26, 27]]];
+
         // 3, 7, 11, 17, 21, 25
-        document.write('arr3d[0][0][2] : '+arr3d[0][0][2]+'<br>');
-        document.write('arr3d[0][2][0] : '+arr3d[0][2][0]+'<br>');
-        document.write('arr3d[0][0][2] : '+arr3d[0][0][2]+'<br>');
-        document.write('arr3d[0][0][2] : '+arr3d[0][0][2]+'<br>');
-        document.write('arr3d[0][0][2] : '+arr3d[0][0][2]+'<br>');
-        document.write('arr3d[0][0][2] : '+arr3d[0][0][2]+'<br>');
-        </script>
+        document.write('arr3d[0][0][2] : ' + arr3d[0][0][2] + '<br>');
+        document.write('arr3d[0][2][0] : ' + arr3d[0][2][0] + '<br>');
+        document.write('arr3d[1][0][1] : ' + arr3d[1][0][1] + '<br/>');
+        document.write('arr3d[1][2][1] : ' + arr3d[1][2][1] + '<br/>');
+        document.write('arr3d[2][0][2] : ' + arr3d[2][0][2] + '<br/>');
+        document.write('arr3d[2][2][0] : ' + arr3d[2][2][0] + '<br/>');
+    </script>
 
 
 
