@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<script>console.log('here 1...')</script>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2.이벤트 종류</title>
+    <!--
+        날짜 : 2024/08/08
+        이름 : 박수정
+        내용 : 자바스크립트 이벤트 종류 실습하기    
+    -->
+    <script>
+        console.log('here 2...');
+        const content1 = document.getElementById('content1');
+        console.log('here 2-1... : ' + content1);
+
+        // 문서 로드 이벤트 - 브라우저가 HTML 문서 로드를 완료하고 난 후 실행
+        window.onload = function() {
+            console.log('here 2...');
+        }
+
+
+
+
+    </script>
+</head>
+
+<body>
+    <h3>이벤트 종류</h3>
+
+    <h4>문서 이벤트</h4>
+    <div id="content1">
+        <p>
+            가로 : <span>0</span><br>
+            세로 : <span>0</span><br>
+        </p>
+        <p>
+            위치 : <span>0</span><br>
+            <button id="btn-top">상단이동</button>
+        </p>
+    </div>
+    <h4>마우스 이벤트</h4>
+    <h4>키보드 이벤트</h4>
+    <h4>툴 이벤트</h4>
+</body>
+
+</html>
+<script>
+    console.log('here 3...');
+</script>
